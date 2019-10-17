@@ -1,5 +1,5 @@
 proxy_pip_git_manage.bat
-LogWTTD.txt
+LogWTTD*.txt
 
 .env
 .idea
@@ -7,3 +7,4 @@ LogWTTD.txt
 *.sqlite3
 *pyc
 __pycache__
+staticfiles/
