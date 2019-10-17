@@ -1,0 +1,9 @@
+proxy_pip_git_manage.bat
+LogWTTD.txt
+
+.env
+.idea
+.wttd
+*.sqlite3
+*pyc
+__pycache__
