@@ -1,5 +1,7 @@
 proxy_pip_git_manage.bat
 LogWTTD*.txt
+*FizzBuzz*
+.ipynb_checkpoints
 
 .env
 .idea
