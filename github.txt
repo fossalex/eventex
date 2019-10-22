@@ -1,0 +1,9 @@
+#######################
+# Configurar variaveis globais
+# git config --global user.name "Alex Sander Foss"
+# git config --global user.email fossalex@hotmail.com
+#######################
+
+git remote add origin https://github.com/fossalex/eventex.git
+git remote add origin git@github.com:fossalex/eventex.git
+git push -u origin master
