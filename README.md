@@ -2,6 +2,8 @@
 
 Sistema de Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/fossalex/eventex.svg?branch=master)](https://travis-ci.org/fossalex/eventex)
+
 ## Como desenvolver?
 
 1. Clone o repositório.
