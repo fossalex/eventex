@@ -29,6 +29,5 @@ class ContactModelTest(TestCase):
         self.assertRaises(ValidationError, contact.full_clean)
 
     def test_str(self):
-        contact = Contact.objects.create(speaker=self.speaker, kind=Contact.EMAIL,
-                                         value='henrique@bastos.net')
+        contact = Contact(speaker=self.speaker, kind=Contact.EMAIL, value='henrique@bastos.net')
         self.assertEqual('henrique@bastos.net', str(contact))
