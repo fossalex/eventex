@@ -26,7 +26,7 @@ class SubscriptionDetailGet(TestCase):
         self.assertIsInstance(subscription, Subscription)
 
     def test_html(self):
-        contents =(self.obj.name, self.obj.cpf,
+        contents = (self.obj.name, self.obj.cpf,
                    self.obj.email, self.obj.phone)
 
         with self.subTest():
